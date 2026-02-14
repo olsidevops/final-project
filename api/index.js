@@ -14,7 +14,7 @@ app.get("/users", async (req, res) => {
   res.json(result.rows);
 });
 
-const PORT = 3000;
+const PORT = 3002;
 app.listen(PORT, () => {
   console.log(`API running on port ${PORT}`);
 });
